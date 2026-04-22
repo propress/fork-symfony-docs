@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T08:02:33Z
-> 总计：485 | 已完成：10 | 待翻译：475 | 需重译：0
+> 更新时间：2026-04-22T08:05:22Z
+> 总计：485 | 已完成：11 | 待翻译：474 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -15,7 +15,7 @@
 | bundles/prepend_extension.rst | book/bundles/prepend_extension.md | ✅ done |
 | cache.rst | book/cache.md | ✅ done |
 | components/asset.rst | book/components/asset.md | ✅ done |
-| components/browser_kit.rst | book/components/browser_kit.md | ⏳ pending |
+| components/browser_kit.rst | book/components/browser_kit.md | ✅ done |
 | components/cache.rst | book/components/cache.md | ⏳ pending |
 | components/cache/adapters/apcu_adapter.rst | book/components/cache/adapters/apcu_adapter.md | ⏳ pending |
 | components/cache/adapters/array_cache_adapter.rst | book/components/cache/adapters/array_cache_adapter.md | ⏳ pending |
