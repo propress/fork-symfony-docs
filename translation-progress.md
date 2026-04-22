@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T08:54:36Z
-> 总计：485 | 已完成：27 | 待翻译：458 | 需重译：0
+> 更新时间：2026-04-22T08:55:41Z
+> 总计：485 | 已完成：28 | 待翻译：457 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -32,7 +32,7 @@
 | components/cache/cache_invalidation.rst | book/components/cache/cache_invalidation.md | ✅ done |
 | components/cache/cache_items.rst | book/components/cache/cache_items.md | ✅ done |
 | components/cache/cache_pools.rst | book/components/cache/cache_pools.md | ✅ done |
-| components/cache/psr6_psr16_adapters.rst | book/components/cache/psr6_psr16_adapters.md | ⏳ pending |
+| components/cache/psr6_psr16_adapters.rst | book/components/cache/psr6_psr16_adapters.md | ✅ done |
 | components/clock.rst | book/components/clock.md | ⏳ pending |
 | components/config.rst | book/components/config.md | ⏳ pending |
 | components/config/caching.rst | book/components/config/caching.md | ⏳ pending |
