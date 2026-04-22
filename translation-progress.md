@@ -1,14 +1,14 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T06:27:10Z
-> 总计：485 | 已完成：3 | 待翻译：482 | 需重译：0
+> 更新时间：2026-04-22T06:28:51Z
+> 总计：485 | 已完成：4 | 待翻译：481 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
 | best_practices.rst | book/best_practices.md | ✅ done |
 | bundles.rst | book/bundles.md | ✅ done |
 | bundles/best_practices.rst | book/bundles/best_practices.md | ✅ done |
-| bundles/configuration.rst | book/bundles/configuration.md | ⏳ pending |
+| bundles/configuration.rst | book/bundles/configuration.md | ✅ done |
 | bundles/extension.rst | book/bundles/extension.md | ⏳ pending |
 | bundles/index.rst | book/bundles/index.md | ⏳ pending |
 | bundles/override.rst | book/bundles/override.md | ⏳ pending |
