@@ -1,13 +1,13 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T06:25:57Z
-> 总计：485 | 已完成：2 | 待翻译：483 | 需重译：0
+> 更新时间：2026-04-22T06:27:10Z
+> 总计：485 | 已完成：3 | 待翻译：482 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
 | best_practices.rst | book/best_practices.md | ✅ done |
 | bundles.rst | book/bundles.md | ✅ done |
-| bundles/best_practices.rst | book/bundles/best_practices.md | ⏳ pending |
+| bundles/best_practices.rst | book/bundles/best_practices.md | ✅ done |
 | bundles/configuration.rst | book/bundles/configuration.md | ⏳ pending |
 | bundles/extension.rst | book/bundles/extension.md | ⏳ pending |
 | bundles/index.rst | book/bundles/index.md | ⏳ pending |
