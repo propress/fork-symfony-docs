@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T07:50:01Z
-> 总计：485 | 已完成：8 | 待翻译：477 | 需重译：0
+> 更新时间：2026-04-22T07:59:26Z
+> 总计：485 | 已完成：9 | 待翻译：476 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -13,7 +13,7 @@
 | bundles/index.rst | book/bundles/index.md | ✅ done |
 | bundles/override.rst | book/bundles/override.md | ✅ done |
 | bundles/prepend_extension.rst | book/bundles/prepend_extension.md | ✅ done |
-| cache.rst | book/cache.md | ⏳ pending |
+| cache.rst | book/cache.md | ✅ done |
 | components/asset.rst | book/components/asset.md | ⏳ pending |
 | components/browser_kit.rst | book/components/browser_kit.md | ⏳ pending |
 | components/cache.rst | book/components/cache.md | ⏳ pending |
