@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T09:30:38Z
-> 总计：485 | 已完成：47 | 待翻译：438 | 需重译：0
+> 更新时间：2026-04-22T09:40:36Z
+> 总计：485 | 已完成：53 | 待翻译：432 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -41,7 +41,7 @@
 | components/console.rst | book/components/console.md | ✅ done |
 | components/console/changing_default_command.rst | book/components/console/changing_default_command.md | ✅ done |
 | components/console/console_arguments.rst | book/components/console/console_arguments.md | ✅ done |
-| components/console/events.rst | book/components/console/events.md | ⏳ pending |
+| components/console/events.rst | book/components/console/events.md | ✅ done |
 | components/console/helpers/cursor.rst | book/components/console/helpers/cursor.md | ✅ done |
 | components/console/helpers/debug_formatter.rst | book/components/console/helpers/debug_formatter.md | ✅ done |
 | components/console/helpers/formatterhelper.rst | book/components/console/helpers/formatterhelper.md | ✅ done |
@@ -63,15 +63,15 @@
 | components/dom_crawler.rst | book/components/dom_crawler.md | ⏳ pending |
 | components/event_dispatcher.rst | book/components/event_dispatcher.md | ⏳ pending |
 | components/event_dispatcher/generic_event.rst | book/components/event_dispatcher/generic_event.md | ⏳ pending |
-| components/event_dispatcher/immutable_dispatcher.rst | book/components/event_dispatcher/immutable_dispatcher.md | ⏳ pending |
-| components/event_dispatcher/traceable_dispatcher.rst | book/components/event_dispatcher/traceable_dispatcher.md | ⏳ pending |
+| components/event_dispatcher/immutable_dispatcher.rst | book/components/event_dispatcher/immutable_dispatcher.md | ✅ done |
+| components/event_dispatcher/traceable_dispatcher.rst | book/components/event_dispatcher/traceable_dispatcher.md | ✅ done |
 | components/expression_language.rst | book/components/expression_language.md | ⏳ pending |
 | components/filesystem.rst | book/components/filesystem.md | ⏳ pending |
 | components/finder.rst | book/components/finder.md | ⏳ pending |
 | components/form.rst | book/components/form.md | ⏳ pending |
 | components/http_foundation.rst | book/components/http_foundation.md | ⏳ pending |
 | components/http_kernel.rst | book/components/http_kernel.md | ⏳ pending |
-| components/index.rst | book/components/index.md | ⏳ pending |
+| components/index.rst | book/components/index.md | ✅ done |
 | components/intl.rst | book/components/intl.md | ⏳ pending |
 | components/json_path.rst | book/components/json_path.md | ⏳ pending |
 | components/ldap.rst | book/components/ldap.md | ⏳ pending |
@@ -85,10 +85,10 @@
 | components/property_info.rst | book/components/property_info.md | ⏳ pending |
 | components/psr7.rst | book/components/psr7.md | ⏳ pending |
 | components/runtime.rst | book/components/runtime.md | ⏳ pending |
-| components/semaphore.rst | book/components/semaphore.md | ⏳ pending |
+| components/semaphore.rst | book/components/semaphore.md | ✅ done |
 | components/type_info.rst | book/components/type_info.md | ⏳ pending |
 | components/uid.rst | book/components/uid.md | ⏳ pending |
-| components/using_components.rst | book/components/using_components.md | ⏳ pending |
+| components/using_components.rst | book/components/using_components.md | ✅ done |
 | components/validator.rst | book/components/validator.md | ⏳ pending |
 | components/validator/metadata.rst | book/components/validator/metadata.md | ⏳ pending |
 | components/validator/resources.rst | book/components/validator/resources.md | ⏳ pending |
