@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T08:07:52Z
-> 总计：485 | 已完成：12 | 待翻译：473 | 需重译：0
+> 更新时间：2026-04-22T08:10:05Z
+> 总计：485 | 已完成：16 | 待翻译：469 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -17,12 +17,12 @@
 | components/asset.rst | book/components/asset.md | ✅ done |
 | components/browser_kit.rst | book/components/browser_kit.md | ✅ done |
 | components/cache.rst | book/components/cache.md | ✅ done |
-| components/cache/adapters/apcu_adapter.rst | book/components/cache/adapters/apcu_adapter.md | ⏳ pending |
-| components/cache/adapters/array_cache_adapter.rst | book/components/cache/adapters/array_cache_adapter.md | ⏳ pending |
-| components/cache/adapters/chain_adapter.rst | book/components/cache/adapters/chain_adapter.md | ⏳ pending |
+| components/cache/adapters/apcu_adapter.rst | book/components/cache/adapters/apcu_adapter.md | ✅ done |
+| components/cache/adapters/array_cache_adapter.rst | book/components/cache/adapters/array_cache_adapter.md | ✅ done |
+| components/cache/adapters/chain_adapter.rst | book/components/cache/adapters/chain_adapter.md | ✅ done |
 | components/cache/adapters/couchbasecollection_adapter.rst | book/components/cache/adapters/couchbasecollection_adapter.md | ⏳ pending |
 | components/cache/adapters/doctrine_dbal_adapter.rst | book/components/cache/adapters/doctrine_dbal_adapter.md | ⏳ pending |
-| components/cache/adapters/filesystem_adapter.rst | book/components/cache/adapters/filesystem_adapter.md | ⏳ pending |
+| components/cache/adapters/filesystem_adapter.rst | book/components/cache/adapters/filesystem_adapter.md | ✅ done |
 | components/cache/adapters/memcached_adapter.rst | book/components/cache/adapters/memcached_adapter.md | ⏳ pending |
 | components/cache/adapters/pdo_adapter.rst | book/components/cache/adapters/pdo_adapter.md | ⏳ pending |
 | components/cache/adapters/php_array_cache_adapter.rst | book/components/cache/adapters/php_array_cache_adapter.md | ⏳ pending |
