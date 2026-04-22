@@ -1,29 +1,71 @@
-# 容器构建工作流程
+# Container Building Workflow
 
-与 Dependency Injection 组件相关的文件和类的位置取决于您想要使用容器的应用、库或框架。查看在 Symfony 全栈框架中如何配置和构建容器将帮助您了解这一切是如何结合在一起的，无论您是使用全栈框架还是希望在另一个应用中使用服务容器。
+The location of the files and classes related to the Dependency Injection
+component depends on the application, library or framework in which you want
+to use the container. Looking at how the container is configured and built
+in the Symfony full-stack Framework will help you see how this all fits together,
+whether you are using the full-stack framework or looking to use the service
+container in another application.
 
-全栈框架使用 HttpKernel 组件来管理从应用和 bundle 加载服务容器配置，还处理编译和缓存。即使您不使用 HttpKernel，它也应该为您提供一种在模块化应用中组织配置的方式的思路。
+The full-stack framework uses the HttpKernel component to manage the loading
+of the service container configuration from the application and bundles
+and also handles the compilation and caching. Even if you are not using
+HttpKernel, it should give you an idea of one way of organizing configuration
+in a modular application.
 
-## 使用缓存的容器
+## Working with a Cached Container
 
-在构建它之前，内核会检查容器的缓存版本是否存在。内核有一个调试设置，如果为 false，则使用缓存版本（如果存在）。如果调试为 true，则内核检查配置是否最新，如果是，则使用容器的缓存版本。如果不是，则从应用级配置和 bundle 的扩展配置构建容器。
+Before building it, the kernel checks to see if a cached version of the
+container exists. The kernel has a debug setting and if this is false,
+the cached version is used if it exists. If debug is true then the kernel
+:doc:`checks to see if configuration is fresh </components/config/caching>`
+and if it is, the cached version of the container is used. If not then the
+container is built from the application-level configuration and the bundles'
+extension configuration.
 
-有关更多详细信息，请阅读转储配置以提高性能。
+Read :ref:`Dumping the Configuration for Performance <components-dependency-injection-dumping>`
+for more details.
 
-## 应用级配置
+## Application-level Configuration
 
-应用级配置从 `config` 目录加载。加载多个文件，然后在处理扩展时合并这些文件。这允许不同环境的不同配置，例如 dev、prod。
+Application level config is loaded from the `config` directory. Multiple
+files are loaded which are then merged when the extensions are processed.
+This allows for different configuration for different environments e.g.
+dev, prod.
 
-这些文件包含直接加载到容器中的参数和服务，如使用配置文件设置容器中所述。它们还包含由扩展处理的配置，如使用扩展管理配置中所述。这些被视为 bundle 配置，因为每个 bundle 都包含一个 Extension 类。
+These files contain parameters and services that are loaded directly into
+the container as per
+:ref:`Setting Up the Container with Configuration Files <components-dependency-injection-loading-config>`.
+They also contain configuration that is processed by extensions as per
+:ref:`Managing Configuration with Extensions <components-dependency-injection-extension>`.
+These are considered to be bundle configuration since each bundle contains
+an Extension class.
 
-## 使用扩展的 Bundle 级配置
+## Bundle-level Configuration with Extensions
 
-按照惯例，每个 bundle 都包含一个 Extension 类，该类位于 bundle 的 `DependencyInjection` 目录中。当内核启动时，这些会向 `ContainerBuilder` 注册。当 `ContainerBuilder` 被编译时，与 bundle 扩展相关的应用级配置会传递给 Extension，该扩展通常还会加载自己的配置文件，通常来自 bundle 的 `Resources/config` 目录。应用级配置通常使用 Configuration 对象处理，该对象也存储在 bundle 的 `DependencyInjection` 目录中。
+By convention, each bundle contains an Extension class which is in the bundle's
+`DependencyInjection` directory. These are registered with the `ContainerBuilder`
+when the kernel is booted. When the `ContainerBuilder` is
+:doc:`compiled </components/dependency_injection/compilation>`, the application-level
+configuration relevant to the bundle's extension is passed to the Extension
+which also usually loads its own config file(s), typically from the bundle's
+`Resources/config` directory. The application-level config is usually
+processed with a :doc:`Configuration object </components/config/definition>`
+also stored in the bundle's `DependencyInjection` directory.
 
-## 允许 Bundle 之间交互的编译器传递
+## Compiler Passes to Allow Interaction between Bundles
 
-编译器传递用于允许不同 bundle 之间的交互，因为它们不能在扩展类中影响彼此的配置。主要用途之一是处理标记的服务，允许 bundle 注册要由其他 bundle 拾取的服务，例如 Monolog 记录器、Twig 扩展和 Web Profiler 的数据收集器。编译器传递通常放置在 bundle 的 `DependencyInjection/Compiler` 目录中。
+:ref:`Compiler passes <components-dependency-injection-compiler-passes>`
+are used to allow interaction between different bundles as they cannot affect
+each other's configuration in the extension classes. One of the main uses
+is to process tagged services, allowing bundles to register services to
+be picked up by other bundles, such as Monolog loggers, Twig extensions
+and Data Collectors for the Web Profiler. Compiler passes are usually placed
+in the bundle's `DependencyInjection/Compiler` directory.
 
-## 编译和缓存
+## Compilation and Caching
 
-在编译过程从配置、扩展和编译器传递加载服务后，它被转储，以便下次可以使用缓存。然后在后续请求期间使用转储的版本，因为它更有效。
+After the compilation process has loaded the services from the configuration,
+extensions and the compiler passes, it is dumped so that the cache can be
+used next time. The dumped version is then used during subsequent requests
+as it is more efficient.
