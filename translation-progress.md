@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T09:28:58Z
-> 总计：485 | 已完成：44 | 待翻译：441 | 需重译：0
+> 更新时间：2026-04-22T09:30:38Z
+> 总计：485 | 已完成：47 | 待翻译：438 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -43,10 +43,10 @@
 | components/console/console_arguments.rst | book/components/console/console_arguments.md | ✅ done |
 | components/console/events.rst | book/components/console/events.md | ⏳ pending |
 | components/console/helpers/cursor.rst | book/components/console/helpers/cursor.md | ✅ done |
-| components/console/helpers/debug_formatter.rst | book/components/console/helpers/debug_formatter.md | ⏳ pending |
-| components/console/helpers/formatterhelper.rst | book/components/console/helpers/formatterhelper.md | ⏳ pending |
+| components/console/helpers/debug_formatter.rst | book/components/console/helpers/debug_formatter.md | ✅ done |
+| components/console/helpers/formatterhelper.rst | book/components/console/helpers/formatterhelper.md | ✅ done |
 | components/console/helpers/index.rst | book/components/console/helpers/index.md | ✅ done |
-| components/console/helpers/processhelper.rst | book/components/console/helpers/processhelper.md | ⏳ pending |
+| components/console/helpers/processhelper.rst | book/components/console/helpers/processhelper.md | ✅ done |
 | components/console/helpers/progressbar.rst | book/components/console/helpers/progressbar.md | ⏳ pending |
 | components/console/helpers/progressindicator.rst | book/components/console/helpers/progressindicator.md | ✅ done |
 | components/console/helpers/questionhelper.rst | book/components/console/helpers/questionhelper.md | ⏳ pending |
