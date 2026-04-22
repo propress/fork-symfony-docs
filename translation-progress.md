@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T09:00:28Z
-> 总计：485 | 已完成：31 | 待翻译：454 | 需重译：0
+> 更新时间：2026-04-22T09:01:26Z
+> 总计：485 | 已完成：32 | 待翻译：453 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -37,7 +37,7 @@
 | components/config.rst | book/components/config.md | ✅ done |
 | components/config/caching.rst | book/components/config/caching.md | ✅ done |
 | components/config/definition.rst | book/components/config/definition.md | ⏳ pending |
-| components/config/resources.rst | book/components/config/resources.md | ⏳ pending |
+| components/config/resources.rst | book/components/config/resources.md | ✅ done |
 | components/console.rst | book/components/console.md | ⏳ pending |
 | components/console/changing_default_command.rst | book/components/console/changing_default_command.md | ⏳ pending |
 | components/console/console_arguments.rst | book/components/console/console_arguments.md | ⏳ pending |
