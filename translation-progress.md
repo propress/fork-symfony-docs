@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T08:14:29Z
-> 总计：485 | 已完成：23 | 待翻译：462 | 需重译：0
+> 更新时间：2026-04-22T08:48:42Z
+> 总计：485 | 已完成：24 | 待翻译：461 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -23,7 +23,7 @@
 | components/cache/adapters/couchbasecollection_adapter.rst | book/components/cache/adapters/couchbasecollection_adapter.md | ✅ done |
 | components/cache/adapters/doctrine_dbal_adapter.rst | book/components/cache/adapters/doctrine_dbal_adapter.md | ✅ done |
 | components/cache/adapters/filesystem_adapter.rst | book/components/cache/adapters/filesystem_adapter.md | ✅ done |
-| components/cache/adapters/memcached_adapter.rst | book/components/cache/adapters/memcached_adapter.md | ⏳ pending |
+| components/cache/adapters/memcached_adapter.rst | book/components/cache/adapters/memcached_adapter.md | ✅ done |
 | components/cache/adapters/pdo_adapter.rst | book/components/cache/adapters/pdo_adapter.md | ✅ done |
 | components/cache/adapters/php_array_cache_adapter.rst | book/components/cache/adapters/php_array_cache_adapter.md | ✅ done |
 | components/cache/adapters/php_files_adapter.rst | book/components/cache/adapters/php_files_adapter.md | ✅ done |
