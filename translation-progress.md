@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T06:28:51Z
-> 总计：485 | 已完成：4 | 待翻译：481 | 需重译：0
+> 更新时间：2026-04-22T07:47:37Z
+> 总计：485 | 已完成：5 | 待翻译：480 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -9,7 +9,7 @@
 | bundles.rst | book/bundles.md | ✅ done |
 | bundles/best_practices.rst | book/bundles/best_practices.md | ✅ done |
 | bundles/configuration.rst | book/bundles/configuration.md | ✅ done |
-| bundles/extension.rst | book/bundles/extension.md | ⏳ pending |
+| bundles/extension.rst | book/bundles/extension.md | ✅ done |
 | bundles/index.rst | book/bundles/index.md | ⏳ pending |
 | bundles/override.rst | book/bundles/override.md | ⏳ pending |
 | bundles/prepend_extension.rst | book/bundles/prepend_extension.md | ⏳ pending |
