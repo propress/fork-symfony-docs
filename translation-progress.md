@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T08:13:32Z
-> 总计：485 | 已完成：22 | 待翻译：463 | 需重译：0
+> 更新时间：2026-04-22T08:14:29Z
+> 总计：485 | 已完成：23 | 待翻译：462 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -29,7 +29,7 @@
 | components/cache/adapters/php_files_adapter.rst | book/components/cache/adapters/php_files_adapter.md | ✅ done |
 | components/cache/adapters/proxy_adapter.rst | book/components/cache/adapters/proxy_adapter.md | ✅ done |
 | components/cache/adapters/redis_adapter.rst | book/components/cache/adapters/redis_adapter.md | ⏳ pending |
-| components/cache/cache_invalidation.rst | book/components/cache/cache_invalidation.md | ⏳ pending |
+| components/cache/cache_invalidation.rst | book/components/cache/cache_invalidation.md | ✅ done |
 | components/cache/cache_items.rst | book/components/cache/cache_items.md | ⏳ pending |
 | components/cache/cache_pools.rst | book/components/cache/cache_pools.md | ⏳ pending |
 | components/cache/psr6_psr16_adapters.rst | book/components/cache/psr6_psr16_adapters.md | ⏳ pending |
