@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T08:10:05Z
-> 总计：485 | 已完成：16 | 待翻译：469 | 需重译：0
+> 更新时间：2026-04-22T08:13:32Z
+> 总计：485 | 已完成：22 | 待翻译：463 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -20,14 +20,14 @@
 | components/cache/adapters/apcu_adapter.rst | book/components/cache/adapters/apcu_adapter.md | ✅ done |
 | components/cache/adapters/array_cache_adapter.rst | book/components/cache/adapters/array_cache_adapter.md | ✅ done |
 | components/cache/adapters/chain_adapter.rst | book/components/cache/adapters/chain_adapter.md | ✅ done |
-| components/cache/adapters/couchbasecollection_adapter.rst | book/components/cache/adapters/couchbasecollection_adapter.md | ⏳ pending |
-| components/cache/adapters/doctrine_dbal_adapter.rst | book/components/cache/adapters/doctrine_dbal_adapter.md | ⏳ pending |
+| components/cache/adapters/couchbasecollection_adapter.rst | book/components/cache/adapters/couchbasecollection_adapter.md | ✅ done |
+| components/cache/adapters/doctrine_dbal_adapter.rst | book/components/cache/adapters/doctrine_dbal_adapter.md | ✅ done |
 | components/cache/adapters/filesystem_adapter.rst | book/components/cache/adapters/filesystem_adapter.md | ✅ done |
 | components/cache/adapters/memcached_adapter.rst | book/components/cache/adapters/memcached_adapter.md | ⏳ pending |
-| components/cache/adapters/pdo_adapter.rst | book/components/cache/adapters/pdo_adapter.md | ⏳ pending |
-| components/cache/adapters/php_array_cache_adapter.rst | book/components/cache/adapters/php_array_cache_adapter.md | ⏳ pending |
-| components/cache/adapters/php_files_adapter.rst | book/components/cache/adapters/php_files_adapter.md | ⏳ pending |
-| components/cache/adapters/proxy_adapter.rst | book/components/cache/adapters/proxy_adapter.md | ⏳ pending |
+| components/cache/adapters/pdo_adapter.rst | book/components/cache/adapters/pdo_adapter.md | ✅ done |
+| components/cache/adapters/php_array_cache_adapter.rst | book/components/cache/adapters/php_array_cache_adapter.md | ✅ done |
+| components/cache/adapters/php_files_adapter.rst | book/components/cache/adapters/php_files_adapter.md | ✅ done |
+| components/cache/adapters/proxy_adapter.rst | book/components/cache/adapters/proxy_adapter.md | ✅ done |
 | components/cache/adapters/redis_adapter.rst | book/components/cache/adapters/redis_adapter.md | ⏳ pending |
 | components/cache/cache_invalidation.rst | book/components/cache/cache_invalidation.md | ⏳ pending |
 | components/cache/cache_items.rst | book/components/cache/cache_items.md | ⏳ pending |
