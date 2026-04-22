@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T09:03:09Z
-> 总计：485 | 已完成：33 | 待翻译：452 | 需重译：0
+> 更新时间：2026-04-22T09:04:05Z
+> 总计：485 | 已完成：34 | 待翻译：451 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -53,7 +53,7 @@
 | components/console/helpers/table.rst | book/components/console/helpers/table.md | ⏳ pending |
 | components/console/helpers/tree.rst | book/components/console/helpers/tree.md | ⏳ pending |
 | components/console/logger.rst | book/components/console/logger.md | ⏳ pending |
-| components/console/single_command_tool.rst | book/components/console/single_command_tool.md | ⏳ pending |
+| components/console/single_command_tool.rst | book/components/console/single_command_tool.md | ✅ done |
 | components/console/usage.rst | book/components/console/usage.md | ⏳ pending |
 | components/contracts.rst | book/components/contracts.md | ⏳ pending |
 | components/css_selector.rst | book/components/css_selector.md | ⏳ pending |
