@@ -1,7 +1,7 @@
 # 翻译进度
 
-> 更新时间：2026-04-22T09:04:05Z
-> 总计：485 | 已完成：34 | 待翻译：451 | 需重译：0
+> 更新时间：2026-04-22T09:04:59Z
+> 总计：485 | 已完成：35 | 待翻译：450 | 需重译：0
 
 | 源文件 | 译文 | 状态 |
 |--------|------|------|
@@ -39,7 +39,7 @@
 | components/config/definition.rst | book/components/config/definition.md | ⏳ pending |
 | components/config/resources.rst | book/components/config/resources.md | ✅ done |
 | components/console.rst | book/components/console.md | ✅ done |
-| components/console/changing_default_command.rst | book/components/console/changing_default_command.md | ⏳ pending |
+| components/console/changing_default_command.rst | book/components/console/changing_default_command.md | ✅ done |
 | components/console/console_arguments.rst | book/components/console/console_arguments.md | ⏳ pending |
 | components/console/events.rst | book/components/console/events.md | ⏳ pending |
 | components/console/helpers/cursor.rst | book/components/console/helpers/cursor.md | ⏳ pending |
